@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    @apply font-extrabold
+}
+.slick-prev,
+.slick-next{
+    background-color:  #d6d6d6c5;
+}
+.slick-next{
+    right: 40%;
+}
+.slick-prev{
+    left: 40%;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    color: red;
+    outline: none;
+    background: #D6D6D6;
+}
+.slick-prev:before,.slick-next:before
+{
+    content: '';
+}
+.slick-prev,
+.slick-next
+{    
+    border-radius: 30%;
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 110%;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+   
+}
+#second_carousel .slick-next{
+    right: 45%;
+}
+#second_carousel .slick-prev{
+    left: 45%;
+}
+
+
+#hover_div:hover #moving_div{
+    @apply bottom-3
+    }
+#hover_div:hover {
+    box-shadow: 0px 0px 8px blue;
+    }
+    #moving_div{
+        transition: all 1s ;
+       
+    }
+  

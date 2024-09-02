@@ -1,0 +1,7 @@
+.hover_div{
+    transition: all 1s;
+}
+.hover_div:hover{
+    box-shadow: 0px 0px 10px green;
+   
+}

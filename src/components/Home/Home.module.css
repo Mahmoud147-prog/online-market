@@ -1,0 +1,7 @@
+
+input:focus{
+    box-shadow: 0px 0px 16px blue;
+}
+.hover_div{
+    @apply  pb-14 relative
+}
